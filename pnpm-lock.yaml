@@ -1122,8 +1122,8 @@ importers:
         specifier: 3.2.0
         version: 3.2.0
       tldts:
-        specifier: 7.4.10
-        version: 7.4.10
+        specifier: 7.5.5
+        version: 7.5.5
       ws:
         specifier: ^8.22.0
         version: 8.22.0
@@ -9124,11 +9124,11 @@ packages:
     resolution: {integrity: sha512-u8KszXvGfU68hVcZpRHKG28T0krMuv2G5nDhiHaMLen/gIuFEgIJhaJuO69qjnXg5paSrbPMFfx3brNuN8eVSg==}
     engines: {node: '>=14.0.0'}
 
-  tldts-core@7.4.10:
-    resolution: {integrity: sha512-KnQjp53ZekKgm/r3l+u8kJGGzYgrWdP8+Mql7a4vijh2WE0IrZWspQj/TpTxDho/YxO+AnOZnIjQcCD+q6iJsw==}
+  tldts-core@7.6.0:
+    resolution: {integrity: sha512-0By9U6fw2hNzfJAbBMuo1bsX/OyVlsj0wjGyMPV50RZKoLCRwXBOX0FQqgZDaMo2WjjaEW/ZGyVXicLUFTmXqQ==}
 
-  tldts@7.4.10:
-    resolution: {integrity: sha512-GgouD1B+sWwvkaEq8vXC15DjQitxbvs12oIXELpconwm+Tg3zfcEv4jgzq3vtKverDXsg3VI8aRgNL2Nra0Iog==}
+  tldts@7.5.5:
+    resolution: {integrity: sha512-Hy6IImaWALzJOgCIss4gIFi4G0M9lqk95pFKCUVxQPZw+biZ1Pv6f28JpYgahpJB+BufA0HYsIU/aP/WIx3KRg==}
     hasBin: true
 
   toad-cache@3.7.4:
@@ -17953,11 +17953,11 @@ snapshots:
 
   tinyspy@4.0.6: {}
 
-  tldts-core@7.4.10: {}
+  tldts-core@7.6.0: {}
 
-  tldts@7.4.10:
+  tldts@7.5.5:
     dependencies:
-      tldts-core: 7.4.10
+      tldts-core: 7.6.0
 
   toad-cache@3.7.4: {}
 
@@ -17965,7 +17965,7 @@ snapshots:
 
   tough-cookie@6.0.2:
     dependencies:
-      tldts: 7.4.10
+      tldts: 7.5.5
 
   tr46@6.0.0:
     dependencies:
